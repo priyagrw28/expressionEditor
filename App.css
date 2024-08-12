@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.App{
+    text-align: center;
+}
+
+.header {
+    font-size: 40px;
+    margin: auto;
+  
+  }
+
+.dropdown{
+    user-select: none;
+    position: relative;
+    padding: 40px;
+    display: inline-block;
+}
+
+.dropdownBtn{
+    font-weight: bold;
+    margin: 20px;
+    padding: 8px 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(207, 193, 193);
+    cursor:pointer;
+    border-radius: 5px;
+    font-size: 25px;
+    align-self: center; 
+    margin-left: 25%;
+}
+      
+.dropdownBtn:hover {
+    background-color: aliceblue;
+
+ }
+
+.dropdownContent{
+    position:absolute;
+    top:70%; 
+    display:flex;
+    margin: 20px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 25%;
+    cursor:pointer;
+    flex-direction: column;
+    left: 15%;
+}
+
+.dropdownItem {
+  background-color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+  
+  .box{
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 5px;
+    height: fit-content;
+    align-items: center; 
+    display:block;
+    width:100vh;
+    border: 2px solid black;
+    margin: 50px auto;
+  }
+  
+  .heading {
+    width:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    /* color: rgb(27, 72, 17); */
+    margin: auto;
+  
+  }
+  
+  input{
+    border-style:outset;
+    font-size: 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-style: italic;
+    border-color: rgba(13, 14, 14, 0.543);
+  }
+  
+  .variable, .function, .result, .exp, .num{
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #151313;
+    border-radius: 5px;
+    font-size: 20px;
+    width:auto;
+    display:block;
+    border-style:dashed;
+  }
+  
+  .button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(207, 193, 193);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    align-self: center;
+  
+  }
+  
+  .button:hover {
+    background-color:rgb(243, 243, 157);
+  }
